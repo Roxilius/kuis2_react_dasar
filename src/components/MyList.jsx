@@ -54,11 +54,7 @@ const MyList = ({song}) => {
     }
     function handleProm() {
         const komentar = prompt();
-        if(komentar){
-            alert(`Komentar Anda : ${komentar}`)
-        } else{
-            alert('Komentar Tidak Boleh Kosong')
-        }
+        komentar ? alert(`Komentar Anda : ${komentar}`) : alert('Komentar Tidak Boleh Kosong')
     }
     return ( 
         <figure className="bg-slate-500 items-center font-bold rounded-xl text-center gap-5 p-5 flex flex-col">
