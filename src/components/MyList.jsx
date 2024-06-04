@@ -67,7 +67,7 @@ const MyList = ({song}) => {
             <div className=" flex gap-2">
                 <button onClick={() => handleLike()} className="bg-blue-300 p-2 border-2 rounded-full">Suka</button>
                 <button onClick={() => handleClick(song)} className="bg-blue-300 p-2 border-2 rounded-full">Informasi</button>
-                <button onClick={() => handleProm(song)} className="bg-blue-300 p-2 border-2 rounded-full">Komentar</button>
+                <button onClick={() => handleProm()} className="bg-blue-300 p-2 border-2 rounded-full">Komentar</button>
             </div>
         </figure>
     );
